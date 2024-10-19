@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>의대선배 독서실</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>의대선배 독서실</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">홈</a></li>
+                <li><a href="#board">게시판</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>독서실 소개</h2>
+        <p>편안한 분위기에서 공부를 하세요! 독서실에서 제공하는 다양한 자료와 함께하세요.</p>
+    </section>
+
+    <section id="board">
+        <h2>게시판</h2>
+        <div id="posts">
+            <!-- 게시물 내용이 들어갈 곳 -->
+        </div>
+        <form id="postForm">
+            <input type="text" id="title" placeholder="제목" required>
+            <textarea id="content" placeholder="내용" required></textarea>
+            <button type="submit">게시</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>연락처</h2>
+        <p>전화: 010-1234-5678</p>
+        <p>이메일: info@medicalsenior.com</p>
+    </section>
+
+    <footer>
+        <p>© 2024 의대선배 독서실</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
